@@ -37,6 +37,11 @@
 			<!--otros-->
 			<link rel="stylesheet" href="css/slimbox2.css" type="text/css" media="screen" />
 		<!--efecto lightbox-->
+		<!--Accordion-->
+			<link rel="stylesheet" type="text/css" href="css/default.css" />
+			<link rel="stylesheet" type="text/css" href="css/component.css" />
+			<script src="js/modernizr.custom.js"></script>
+		<!--Accordion-->
 		
 	</head>
 	<body>
@@ -55,7 +60,8 @@
 							<li><a id="uno"href="#one" class="active">Acerca de mí...</a></li>
 							<li><a id="dos"href="#two">Destrezas...</a></li>
 							<li><a id="tres"href="#three">Mis Logros...</a></li>
-							<li><a id="cuatro"href="#four">Contacto...</a></li>
+							<!-- <li><a id="cuatro"href="#">Mis proyectos...</a></li> -->
+							<li><a id="cinco"href="#five">Contacto...</a></li>
 						</ul>
 					</nav>
 					<footer>
@@ -80,7 +86,7 @@
 									<h2 class="wow fadeInRight">&#60Andrés Gómez/&#62</h2>
 									<p class="wow fadeInLeft">Estudiante de Ingeniería de Sistemas, <a href="#">músico</a> aficionado<br /> y aprendiz de programación.</p>
 								</header>
-								<p class="wow fadeInRight">Hola, soy Andrés Felipe Gómez Morales, actualmente soy estudiante de 9no semestre de Ingeniería de Sistemas en la fundación universitaria San Martín. Soy aprendiz en todo lo que tiene que ver con el mundo de la programación pero me gusta bastante, siempre trato de saber un poco de cada una de sus ramas para tener un conocimiento general de ellas y poder entender como funcionan estos software impresionantes que nos hacen la vida mas facil, pero me gusta en especial estudiar lo que tenga que ver con el desarrollo web y las aplicaciones móviles.<br />Mi otra pasión es la música... Por lo general paso mi tiempo libre tocando algún instrumento musical.<br />Me gustaría encontrar un trabajo en el cual pueda aprender más sobre programación, y entender como se lleva más a nivel coorporativo, SI SABE DE ALGUNO NO DUDE EN AVISARME!!!...</p>
+								<p class="wow fadeInRight">Hola, soy Andrés Felipe Gómez Morales, actualmente soy estudiante de 10mo semestre de Ingeniería de Sistemas en la fundación universitaria San Martín. Soy aprendiz en todo lo que tiene que ver con el mundo de la programación pero me gusta bastante, siempre trato de saber un poco de cada una de sus ramas para tener un conocimiento general de ellas y poder entender como funcionan estos software impresionantes que nos hacen la vida mas facil, pero me gusta en especial estudiar lo que tenga que ver con el desarrollo web y las aplicaciones móviles.<br />Mi otra pasión es la música... Por lo general paso mi tiempo libre tocando algún instrumento musical.<br />Me gustaría encontrar un trabajo en el cual pueda aprender más sobre programación, y entender como se lleva más a nivel coorporativo, SI SABE DE ALGUNO NO DUDE EN AVISARME!!!...</p>
 							</div>
 						</section>
 						
@@ -107,44 +113,78 @@
 						
 					<!-- Three -->
 						<section id="three">
-							<div class="container">
-								<h3 class="wow fadeInRight">Algunos de mis Logros...</h3>
-								<p class="wow fadeInLeft">Se un poco de muchas cosas y estas son algunas de las certificaciones que he obtenido a lo largo de mi estudio:</p>
-								<div class="features">
-									<article>
-										<a href="images/san-martin-logo.jpg" class="image wow rotateIn" rel="lightbox"><img src="images/san-martin-logo.jpg" alt="fusm-logo" /></a>
-										<div class="inner wow zoomIn">
-											<h4>Pregrado en Ingenieria de Sistemas</h4>
-											<p>Actualmente soy estudiante de 9no semestre de Ingeniería de sistemas en la Fundación Universitaria San Martín.</p>
-										</div>
-									</article>
-									<article>
-										<a href="images/dip3.png" class="image wow rotateIn" rel="lightbox"><img src="images/dip3.png" alt="Diploma 1" /></a>
-										<div class="inner wow zoomIn">
-											<h4>Diseño de páginas web con herramientas de programación HTML, JAVASCRIPT y PHP</h4>
-											<p>Tengo una certificación del Servicio Nacional de Aprendizaje (sena) en Diseño de páginas web con herramientas de programación HTML, JAVASCRIPT y PHP.</p>
-										</div>
-									</article>
-									<article>
-										<a href="images/dip2.png" class="image wow rotateIn" rel="lightbox"><img src="images/dip2.png" alt="Diploma 2" /></a>
-										<div class="inner wow zoomIn">
-											<h4>Mantenimiento de Computadores</h4>
-											<p>Tengo una certificación del Servicio Nacional de Aprendizaje (sena) en Mantenimiento de Computadores.</p>
-										</div>
-									</article>
-									<article>
-										<a href="images/dip1.png" class="image wow rotateIn" rel="lightbox"><img src="images/dip1.png" alt="Diploma 3" /></a>
-										<div class="inner wow zoomIn">
-											<h4>Manejo básico de herramientas informaticas</h4>
-											<p>Tengo una certificación del Servicio Nacional de Aprendizaje (sena) en Manejo básico de herramientas informaticas.</p>
-										</div>
-									</article>
+							<div class="containerA">
+								<header class="clearfix">
+									<h3 class="wow fadeInRight">Algunos de mis Logros...</h3>
+									<p class="wow fadeInLeft">Se un poco de muchas cosas y estas son algunas de las certificaciones que he obtenido a lo largo de mi estudio:</p>
+								</header>	
+								<div class="mainA">
+									<ul id="cbp-ntaccordion" class="cbp-ntaccordion">
+										<li>
+											<h3 class="cbp-nttrigger">Estudios pregrado</h3>
+											<div class="cbp-ntcontent">
+												<a href="images/san-martin-logo.jpg" class="image wow tada" rel="lightbox"><img src="images/san-martin-logo.jpg" alt="fusm-logo"/></a>
+												<div class="inner wow zoomIn">
+													<h4>Pregrado en Ingenieria de Sistemas</h4>
+													<p>Actualmente soy estudiante de 9no semestre de Ingeniería de sistemas en la Fundación Universitaria San Martín.</p>
+												</div>
+												</article>	
+											</div>
+										</li>
+										<li>
+											<h3 class="cbp-nttrigger">Cursos SENA</h3>
+											<div class="cbp-ntcontent">
+												<p>Algunos de los cursos en los que he participado en el SENA:</p>
+												<ul class="cbp-ntsubaccordion">
+													<li>
+														<h4 class="cbp-nttrigger">Diseño de páginas web con herramientas de programación HTML, JAVASCRIPT y PHP</h4>
+														<div class="cbp-ntcontent">
+																<a href="images/dip3.png" class="image wow shake" rel="lightbox"><img src="images/dip3.png" alt="Diploma 1" width="400" height="284"/></a>
+																<div class="inner wow zoomIn">
+																	<h4>Diseño de páginas web con herramientas de programación HTML, JAVASCRIPT y PHP</h4>
+																	<p>Tengo una certificación del Servicio Nacional de Aprendizaje (sena) en Diseño de páginas web con herramientas de programación HTML, JAVASCRIPT y PHP.</p>
+																</div>
+														</div>
+													</li>
+													<li>
+														<h4 class="cbp-nttrigger">Mantenimiento de Computadores</h4>
+														<div class="cbp-ntcontent">
+																<a href="images/dip2.png" class="image wow shake" rel="lightbox"><img src="images/dip2.png" alt="Diploma 2" width="400" height="284"/></a>
+																<div class="inner wow zoomIn">
+																	<h4>Mantenimiento de Computadores</h4>
+																	<p>Tengo una certificación del Servicio Nacional de Aprendizaje (sena) en Mantenimiento de Computadores.</p>
+																</div>
+														</div>
+													</li>
+													<li>
+														<h4 class="cbp-nttrigger">Manejo básico de herramientas informaticas</h4>
+														<div class="cbp-ntcontent">
+																<a href="images/dip1.png" class="image wow shake" rel="lightbox"><img src="images/dip1.png" alt="Diploma 3" width="400" height="284"/></a>
+																<div class="inner wow zoomIn">
+																	<h4>Manejo básico de herramientas informaticas</h4>
+																	<p>Tengo una certificación del Servicio Nacional de Aprendizaje (sena) en Manejo básico de herramientas informaticas.</p>
+																</div>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</li>
+									</ul>
 								</div>
 							</div>
 						</section>
+
+					<!-- four -->
+
+						<!-- <section id="four">
+							<div class="container">
+								<h3 class="wow fadeInLeft">Cosas que puedo hacer...</h3>
+								<p class="wow fadeInRight">Por lo general trato cada día adquirir más conocimientos, me gusta investigar y estar al tanto de las tecnicas de diseño y lenguajes populares actuales ya que he aprendido que cada quien debe ser autodidacta, pero en general lo que sé sobre varias tecnologias es :</p>	
+							</div>
+						</section> -->
 						
-					<!-- Four -->
-						<section id="four">
+					<!-- Five -->
+						<section id="five">
 							<div class="container">
 								<h3 class="wow fadeInRight">Contactame!!!</h3>
 								<p class="wow zoomIn">Puedes contactarme a traves de mis redes sociales:</p>
@@ -218,6 +258,25 @@
 				  ga('send', 'pageview');
 
 				</script>
+
+			<!-- accordion -->
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+				<script src="js/jquery.cbpNTAccordion.min.js"></script>
+				<script>
+					$( function() {
+						/*
+						- how to call the plugin:
+						$( selector ).cbpNTAccordion( [options] );
+						- destroy:
+						$( selector ).cbpNTAccordion( 'destroy' );
+						*/
+
+						$( '#cbp-ntaccordion' ).cbpNTAccordion();
+
+					} );
+				</script>
+
+			
 
 	</body>
 </html>
