@@ -42,7 +42,10 @@
 			<link rel="stylesheet" type="text/css" href="css/component.css" />
 			<script src="js/modernizr.custom.js"></script>
 		<!--Accordion-->
-		
+		<!-- grid_portfolio -->
+			<link rel="stylesheet" type="text/css" href="css/component.grid.css" />
+			<script src="js/modernizr.custom.grid.js"></script>
+		<!-- grid_portfolio -->
 	</head>
 	<body>
 		<div id="wrapper">
@@ -60,7 +63,7 @@
 							<li><a id="uno"href="#one" class="active">Acerca de mí...</a></li>
 							<li><a id="dos"href="#two">Destrezas...</a></li>
 							<li><a id="tres"href="#three">Mis Logros...</a></li>
-							<!-- <li><a id="cuatro"href="#">Mis proyectos...</a></li> -->
+							<li><a id="cuatro"href="#four">Mis proyectos...</a></li>
 							<li><a id="cinco"href="#five">Contacto...</a></li>
 						</ul>
 					</nav>
@@ -89,7 +92,7 @@
 								<p class="wow fadeInRight">Hola, soy Andrés Felipe Gómez Morales, actualmente soy estudiante de 10mo semestre de Ingeniería de Sistemas en la fundación universitaria San Martín. Soy aprendiz en todo lo que tiene que ver con el mundo de la programación pero me gusta bastante, siempre trato de saber un poco de cada una de sus ramas para tener un conocimiento general de ellas y poder entender como funcionan estos software impresionantes que nos hacen la vida mas facil, pero me gusta en especial estudiar lo que tenga que ver con el desarrollo web y las aplicaciones móviles.<br />Mi otra pasión es la música... Por lo general paso mi tiempo libre tocando algún instrumento musical.<br />Me gustaría encontrar un trabajo en el cual pueda aprender más sobre programación, y entender como se lleva más a nivel coorporativo, SI SABE DE ALGUNO NO DUDE EN AVISARME!!!...</p>
 							</div>
 						</section>
-						
+
 					<!-- Two -->
 						<section id="two">
 							<div class="container">
@@ -103,21 +106,21 @@
 									<li class="descripcion_java wow rotateInDownLeft"><figure class="icono_java"></figure>Fundamentos de<br/>java</li>
 									<li class="descripcion_php wow rotateInDownRight"><figure class="icono_php"></figure>Fundamentos de<br/>php</li>
 									<li class="descripcion_git wow rotateInDownLeft"><figure class="icono_git"></figure>Fundamentos de<br/>sistemas manejador<br/>de versiones Git</li>
-									<li class="descripcion_python wow rotateInDownRight"><figure class="icono_python"></figure>Fundamentos de<br/>Python</li>
-									<li class="descripcion_django wow rotateInDownLeft"><figure class="icono_django"></figure>Fundamentos del<br/>framework Django</li>
-									<li class="descripcion_phonegap wow rotateInDownRight"><figure class="icono_phonegap"></figure>Fundamentos en<br/>el servicio de<br/>PhonegapBuild</li>
+									<li class="descripcion_rails wow rotateInDownRight"><figure class="icono_rails"></figure>Fundamentos en el <br/>framework Ruby on Rails</li>
+									<li class="descripcion_ionic wow rotateInDownLeft"><figure class="icono_ionic"></figure>Fundamentos en el <br/>framework ionic</li>
+									<li class="descripcion_cordova wow rotateInDownRight"><figure class="icono_cordova"></figure>Fundamentos en <br/>Apache <br/>Cordova</li>
 									<li class="descripcion_android wow rotateInDownLeft"><figure class="icono_android"></figure>Conceptos básicos<br/>de Android</li>
 								</ul>
 							</div>
 						</section>
-						
+
 					<!-- Three -->
 						<section id="three">
 							<div class="containerA">
 								<header class="clearfix">
 									<h3 class="wow fadeInRight">Algunos de mis Logros...</h3>
 									<p class="wow fadeInLeft">Se un poco de muchas cosas y estas son algunas de las certificaciones que he obtenido a lo largo de mi estudio:</p>
-								</header>	
+								</header>
 								<div class="mainA">
 									<ul id="cbp-ntaccordion" class="cbp-ntaccordion">
 										<li>
@@ -128,7 +131,7 @@
 													<h4>Pregrado en Ingenieria de Sistemas</h4>
 													<p>Actualmente soy estudiante de 9no semestre de Ingeniería de sistemas en la Fundación Universitaria San Martín.</p>
 												</div>
-												</article>	
+												</article>
 											</div>
 										</li>
 										<li>
@@ -176,13 +179,20 @@
 
 					<!-- four -->
 
-						<!-- <section id="four">
+						<section id="four">
 							<div class="container">
-								<h3 class="wow fadeInLeft">Cosas que puedo hacer...</h3>
-								<p class="wow fadeInRight">Por lo general trato cada día adquirir más conocimientos, me gusta investigar y estar al tanto de las tecnicas de diseño y lenguajes populares actuales ya que he aprendido que cada quien debe ser autodidacta, pero en general lo que sé sobre varias tecnologias es :</p>	
+								<h3 class="wow fadeInLeft">Trabajos realizados...</h3>
+								<p class="wow fadeInRight">Estos son agunos de mis proyectos:</p>
+								<section class="grid-wrap">
+									<ul class="grid swipe-right" id="grid">
+										<li><a href="http://asipiensaandresgomez.esy.es/"><img src="images/paginas/pagekit.png" alt="pagekit"><h3>Mi Blog</h3></a></li>
+										<li><a href="http://mastercode.esy.es/"><img src="images/paginas/mastercode1.png" alt="landingMC"><h3>MasterCode_ Landing Page</h3></a></li>
+										<li><a href="#"><img src="images/paginas/mastercode2.png" alt="blogMC"><h3>MasterCode_ Blog (En construcción)</h3></a></li>
+									</ul>
+								</section>
 							</div>
-						</section> -->
-						
+						</section>
+
 					<!-- Five -->
 						<section id="five">
 							<div class="container">
@@ -197,34 +207,34 @@
 										<span id="active" class="icon fa fa-facebook"></span>
 										<a id="hover" class="text" href="https://www.facebook.com/pippe111007"><i class="fa fa-facebook"></i></a>
 									</div><!-- Menu Item -->
-							        
+
 									<div class="menu-item">
 										<span id="active" class="icon fa fa-twitter"></span>
 										<a id="hover" class="text" href="https://twitter.com/Gzpippe"><i class="fa fa-twitter"></i></a>
 									</div><!-- Menu Item -->
-							        
+
 									<div class="menu-item">
 										<span id="active" class="icon fa fa-youtube"></span>
 										<a id="hover" class="text" href="https://www.youtube.com/channel/UC-xChWRCwGBv4kksyK3aFBw"><i class="fa fa-youtube"></i></a>
 									</div><!-- Menu Item -->
-							        
+
 									<div class="menu-item">
 										<span id="active" class="icon fa fa-github-alt"></span>
 										<a id="hover" class="text" href="https://github.com/pippeGz"><i class="fa fa-github-alt"></i></a>
 									</div><!-- Menu Item -->
-							        
+
 									<div class="menu-item">
 										<span id="active" class="icon fa fa-google-plus"></span>
 										<a id="hover" class="text" href="https://plus.google.com/u/0/116158642296525610611/posts"><i class="fa fa-google-plus"></i></a>
 									</div><!-- Menu Item -->
-							        
+
 							        <div class="menu-item">
 										<span id="active" class="icon fa fa-tumblr"></span>
 										<a id="hover" class="text" href="http://pippegz.tumblr.com/"><i class="fa fa-tumblr"></i></a>
 									</div><!-- Menu Item -->
-									
+
 							</div><!-- Menu Wrap -->
-							
+
 							</section><!-- Container -->
 
 						</section>
@@ -233,9 +243,9 @@
 
 		</div>
 			<!--primeros scripts-->
-				
+
 				<script src="js/funcion_personalizada.js"></script>
-				
+
 			<!--redes sociales-->
 				<script type="text/javascript" src="js/custom1icons.js"></script>
 			<!--wow-->
@@ -275,8 +285,18 @@
 
 					} );
 				</script>
+			<!-- galery grid -->
+				<script src="js/masonry.pkgd.min.js"></script>
+				<script src="js/imagesloaded.pkgd.min.js"></script>
+				<script src="js/classie.js"></script>
+				<script src="js/colorfinder-1.1.js"></script>
+				<script src="js/gridScrollFx.js"></script>
+				<script>
+					new GridScrollFx( document.getElementById( 'grid' ), {
+						viewportFactor : 0.4
+					} );
+				</script>
 
-			
 
 	</body>
 </html>

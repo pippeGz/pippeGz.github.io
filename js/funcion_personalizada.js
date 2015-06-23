@@ -43,22 +43,22 @@ $(document).on('ready',function(){
 		$(".icono_git").removeClass("animated infinite bounce");
 	});
 
-	$(".descripcion_python").hover(function(){
-		$(".icono_python").addClass("animated infinite bounce");
+	$(".descripcion_rails").hover(function(){
+		$(".icono_rails").addClass("animated infinite bounce");
 	},function(){
-		$(".icono_python").removeClass("animated infinite bounce");
+		$(".icono_rails").removeClass("animated infinite bounce");
 	});
 
-	$(".descripcion_django").hover(function(){
-		$(".icono_django").addClass("animated infinite bounce");
+	$(".descripcion_ionic").hover(function(){
+		$(".icono_ionic").addClass("animated infinite bounce");
 	},function(){
-		$(".icono_django").removeClass("animated infinite bounce");
+		$(".icono_ionic").removeClass("animated infinite bounce");
 	});
 
-	$(".descripcion_phonegap").hover(function(){
-		$(".icono_phonegap").addClass("animated infinite bounce");
+	$(".descripcion_cordova").hover(function(){
+		$(".icono_cordova").addClass("animated infinite bounce");
 	},function(){
-		$(".icono_phonegap").removeClass("animated infinite bounce");
+		$(".icono_cordova").removeClass("animated infinite bounce");
 	});
 
 	$(".descripcion_android").hover(function(){
@@ -71,7 +71,7 @@ $(document).on('ready',function(){
 
 	$(".special").hover(function(){
 		$(".special").removeClass("animated infinite bounce");
-	});	
+	});
 
-	
+
 });
